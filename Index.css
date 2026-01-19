@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  background-color: gray;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 55px;
+  border: yellow solid 2px;
+  margin-bottom: 25px;
+  background-color: black;
+}
+
+.header-container {
+  color: yellow;
+}
+
+.links ul {
+  display: flex;
+  gap: 15px;
+}
+
+.links li {
+  list-style: none;
+}
+
+.links li a {
+  text-decoration: none;
+  color: yellow;
+}
+
+main {
+  display: grid;
+  margin: 0 auto;
+  gap: 10px;
+  max-width: 60%;
+}
+
+img {
+  width: 100%;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.the-lorem h1 {
+  margin-bottom: 15%;
+  text-align: center;
+}
+
+.the-lorem h1:hover {
+  color: yellow;
+}
+
+.about-me {
+  border: yellow solid 5px;
+  background-color: black;
+  color: yellow;
+  font-size: 18px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  padding: 25px;
+}
+
+.main-bottom {
+  border: black solid 5px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 15px;
+  grid-column: 2;
+}
+
+figcaption {
+  text-align: right;
+  color: black;
+}
+
+.index-footer {
+  background-color: black;
+  color: yellow;
+  border: yellow solid 2px;
+  padding: 10px 0;
+  text-align: center;
+}
