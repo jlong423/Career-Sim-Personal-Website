@@ -90,3 +90,25 @@ figcaption {
   padding: 10px 0;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  body {
+    background-color: yellow;
+  }
+
+  .the-lorem h1:hover {
+    color: gray;
+  }
+  .about-me {
+    border: gray solid 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+  .about-me {
+    color: gray;
+  }
+}

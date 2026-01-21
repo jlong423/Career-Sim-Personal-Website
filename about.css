@@ -75,6 +75,30 @@ img {
 
 .page-footer {
   border: yellow solid 2px;
+  padding: 10px;
   color: gray;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-color: white;
+  }
+  section {
+    color: black;
+  }
+
+  .about-me {
+    background-color: white;
+  }
+
+  @media (max-width: 500px) {
+    body {
+      background-color: gray;
+    }
+    .about-me {
+      background-color: gray;
+      border: black solid 2px;
+    }
+  }
 }
