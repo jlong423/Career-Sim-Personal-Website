@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: gray;
+  background-color: white;
 }
 
 header {
@@ -39,7 +39,7 @@ main {
   flex-direction: column;
   align-items: center;
   width: 40%;
-  color: gray;
+  color: white;
   background-color: black;
   margin: 0 auto 25px;
   padding: 10px;
@@ -74,7 +74,7 @@ p {
 }
 
 a {
-  color: gray;
+  color: white;
 }
 
 @media (max-width: 1000px) {
@@ -83,7 +83,7 @@ a {
   }
 
   p {
-    color: gray;
+    color: white;
   }
 
   img {

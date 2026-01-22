@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: white;
   height: 100vh;
 }
 
@@ -80,14 +80,14 @@ button:hover {
     background-color: white;
   }
   button {
-    background-color: gray;
-    color: black;
+    background-color: blue;
+    color: white;
   }
 }
 
 @media (max-width: 500px) {
   button {
     background-color: black;
-    color: gray;
+    color: white;
   }
 }
