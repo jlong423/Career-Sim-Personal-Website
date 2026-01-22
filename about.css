@@ -46,7 +46,7 @@ main {
   flex-direction: column;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: black;
-  background-color: gray;
+  background-color: white;
   margin: 0 auto 25px;
   padding: 10px;
 }
@@ -58,7 +58,7 @@ section {
   padding-bottom: 15px;
   border-bottom: yellow solid 5px;
   margin: 0 auto 25px;
-  color: gray;
+  color: yellow;
   font-family:
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
@@ -75,6 +75,41 @@ img {
 
 .page-footer {
   border: yellow solid 2px;
-  color: gray;
+  padding: 10px;
+  color: yellow;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-color: white;
+  }
+  section {
+    color: black;
+  }
+
+  .about-me {
+    background-color: white;
+  }
+  footer {
+    background-color: black;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+  .about-me {
+    background-color: black;
+    color: yellow;
+    border: black solid 2px;
+  }
+  .page-footer {
+    background-color: black;
+    border: yellow solid 2px;
+    padding: 10px;
+    color: yellow;
+    text-align: center;
+  }
 }
