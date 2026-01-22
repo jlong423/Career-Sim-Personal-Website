@@ -5,7 +5,7 @@
 
 body {
   display: grid;
-  background-color: gray;
+  background-color: black;
   height: 100vh;
   grid-template-rows: auto 1fr auto;
 }
@@ -53,10 +53,11 @@ img {
 .the-lorem h1 {
   margin-bottom: 15%;
   text-align: center;
+  color: yellow;
 }
 
 .the-lorem h1:hover {
-  color: yellow;
+  color: blue;
 }
 
 .about-me {
@@ -71,16 +72,17 @@ img {
 }
 
 .main-bottom {
-  border: black solid 5px;
+  border: gray solid 5px;
   font-style: italic;
   font-weight: bold;
   padding: 15px;
   grid-column: 2;
+  color: yellow;
 }
 
 figcaption {
   text-align: right;
-  color: black;
+  color: yellow;
 }
 
 .index-footer {
@@ -89,4 +91,43 @@ figcaption {
   border: yellow solid 2px;
   padding: 10px 0;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: white;
+  }
+
+  .the-lorem h1 {
+    color: black;
+  }
+
+  .the-lorem h1:hover {
+    color: blue;
+  }
+  .about-me {
+    border: gray solid 5px;
+  }
+  .main-bottom {
+    border: gray solid 5px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 15px;
+    grid-column: 2;
+    color: blue;
+  }
+
+  figcaption {
+    text-align: right;
+    color: blue;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+  .about-me {
+    color: white;
+  }
 }
