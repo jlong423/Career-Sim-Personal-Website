@@ -53,11 +53,11 @@ img {
 .the-lorem h1 {
   margin-bottom: 15%;
   text-align: center;
-  color: black;
+  color: yellow;
 }
 
 .the-lorem h1:hover {
-  color: yellow;
+  color: blue;
 }
 
 .about-me {
@@ -96,6 +96,10 @@ figcaption {
 @media (max-width: 800px) {
   body {
     background-color: white;
+  }
+
+  .the-lorem h1 {
+    color: black;
   }
 
   .the-lorem h1:hover {
